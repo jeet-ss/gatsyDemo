@@ -1,0 +1,2 @@
+open folder in vs code
+run "npm start"
