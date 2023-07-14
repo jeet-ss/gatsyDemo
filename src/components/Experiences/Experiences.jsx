@@ -117,4 +117,4 @@ const Experiences = () => {
   );
 };
 
-export default Projects;
+export default Experiences;
