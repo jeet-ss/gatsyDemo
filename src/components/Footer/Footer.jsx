@@ -35,10 +35,7 @@ const Footer = () => {
                 </a>
               );
             })}
-        </div>
-        <hr />
-        
-
+        </div>      
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
