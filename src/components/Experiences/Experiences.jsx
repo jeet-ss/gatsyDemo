@@ -26,7 +26,7 @@ const Experiences = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Experiences" />
           {exps.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -41,7 +41,7 @@ const Experiences = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Exp Title'}</h3>
                       <div>
                         <p>
                           {info ||
@@ -72,7 +72,7 @@ const Experiences = () => {
                     </div>
                   </Fade>
                 </Col>
-                <Col lg={8} sm={12}>
+                {/* <Col lg={8} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -87,7 +87,7 @@ const Experiences = () => {
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        {/* <Tilt
+                        <Tilt
                           options={{
                             reverse: false,
                             max: 8,
@@ -103,11 +103,11 @@ const Experiences = () => {
                           <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
                           </div>
-                        </Tilt> */}
+                        </Tilt>
                       </a>
                     </div>
                   </Fade>
-                </Col>
+                </Col> */}
               </Row>
             );
           })}
