@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jeet | Developer', // e.g: 'Name | Developer'
+  lang: 'en, de', // e.g: en, es, fr, jp
+  description: 'Welcome to my place', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.JPG',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: 'Hi, I am Jeet. I am an AI enthusiast and my Research interest includes Music/Audio Processing, Robotics and their implemenation for solving real life problems.',
+  paragraphTwo: 'Pursuing innovation and building a team to materialize new ideas is my prime objective in life',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Would you like to get to know me better? Awesome!",
+  btn: "Let's Talk",
+  email: 'jeet.sensarma@gmail.com',
 };
 
 // FOOTER DATA
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
