@@ -1,5 +1,8 @@
 #experiences {
     background-color: $white-color;
+    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+    padding: 15rem 0 10rem 0;
     color: $dark-blue-text;
     margin-top: -15rem;
     padding-top: 15rem;
