@@ -72,7 +72,7 @@ const Experiences = () => {
                     </div>
                   </Fade>
                 </Col>
-                {/* <Col lg={8} sm={12}>
+                <Col lg={8} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -107,7 +107,7 @@ const Experiences = () => {
                       </a>
                     </div>
                   </Fade>
-                </Col> */}
+                </Col>
               </Row>
             );
           })}
