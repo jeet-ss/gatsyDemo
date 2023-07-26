@@ -23,9 +23,9 @@ const Experiences = () => {
   }, []);
 
   return (
-    <section id="exps">
+    <section id="experiences">
       <Container>
-        <div className="exp-wrapper">
+        <div className="experience-wrapper">
           <Title title="Experiences" />
           {exps.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
@@ -40,8 +40,8 @@ const Experiences = () => {
                     delay={500}
                     distance="30px"
                   >
-                    <div className="exp-wrapper__text">
-                      <h3 className="exp-wrapper__text-title">{title || 'Exp Title'}</h3>
+                    <div className="experience-wrapper__text">
+                      <h3 className="experience-wrapper__text-title">{title || 'Exp Title'}</h3>
                       <div>
                         <p>
                           {info ||
